@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Royal Fitness</title>
+    <link rel="stylesheet" href="main.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <section id="home">
+      <header>
+        <div id="logo">
+          <a href="#">
+            <span id="s1">Royal</span><span id="s2">Fitness.</span>
+          </a>
+        </div>
+        <nav id="navbar">
+          <ul>
+            <div id="quit">
+              <i class="fa fa-times" aria-hidden="true" onclick="toggle()"></i>
+            </div>
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">portfolio</a></li>
+            <li><a href="#">about</a></li>
+            <li><a href="#">blog</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">help</a></li>
+          </ul>
+        </nav>
+        <div id="bars" onclick="toggle()">
+          <div class="bar shortbar"></div>
+          <div class="bar"></div>
+          <div class="bar shortbar"></div>
+        </div>
+      </header>
+
+      <!-- Content -->
+      <div class="content">
+        <div class="left">
+          <p>Welcome To</p>
+          <h1>
+            <span>Royal Fitness</span>, Transform Your Loose Muscles Into Hard
+            Muscles.
+          </h1>
+          <div class="btns">
+            <a href="#">Register</a>
+            <a href="#" id="login">Login</a>
+          </div>
+          <div class="icons">
+            <i class="fa fa-facebook" aria-hidden="true"></i>
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+            <i class="fa fa-twitter" aria-hidden="true"></i>
+            <i class="fa fa-youtube" aria-hidden="true"></i>
+          </div>
+        </div>
+        <div class="right">
+          <div class="boxes">
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="main.js"></script>
+  </body>
+</html>
